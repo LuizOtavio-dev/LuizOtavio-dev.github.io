@@ -8,6 +8,7 @@ h4 {
 
 #name {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 #top {
@@ -37,4 +38,8 @@ h4 {
 
 .description {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+    border: 2px solid black;
 }
