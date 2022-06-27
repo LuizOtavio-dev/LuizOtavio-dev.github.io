@@ -1,5 +1,6 @@
 body {
-    background-color: #e0e1dd;
+    background-color: #1b263b;
+    color: white;
 }
 
 h4 {
@@ -13,7 +14,9 @@ h4 {
 
 #top {
     float: left;
-    width: 350px;
+    width: 330px;
+    padding: 10px;
+    background-color: #0d1b2a;
 }
 
 .des-container {
