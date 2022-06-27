@@ -10,6 +10,15 @@ h4 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#top {
+    float: left;
+    width: 350px;
+}
+
+.des-container {
+    height: 350px;
+}
+
 #commitment {
     font-size: 30px;
 }
