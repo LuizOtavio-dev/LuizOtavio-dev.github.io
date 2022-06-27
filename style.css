@@ -2,8 +2,28 @@ body {
     background-color: #e0e1dd;
 }
 
+h4 {
+    font-style: italic;
+}
+
 #name {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#commitment {
+    font-size: 30px;
+}
+
+#resilience {
+    font-size: 25px;
+}
+
+#empathy {
+    font-size: 40px;
+}
+
+#collaboration {
+    font-size: 30px;
 }
 
 .description {
