@@ -1,10 +1,38 @@
 body {
     background-color: #1b263b;
     color: white;
+    padding: 3%;
 }
 
-h4 {
+h3.list {
     font-style: italic;
+    text-align: center;
+    padding: 20px 0px 10px 30px;
+}
+
+ul li {
+    text-align: center;
+    list-style: none;
+}
+
+ul li:nth-child(odd) {
+    background-color: #0d1b2a;
+}
+
+ul li:nth-child(n + 5):nth-child(odd) {
+    font-size: 40px;
+}
+
+ul li:nth-child(n + 5):nth-child(even) {
+    font-size: 30px;
+}
+
+ul li:not(:nth-child(n + 5)):nth-child(odd) {
+    font-size: 50px;
+}
+
+ul li:not(:nth-child(n + 5)):nth-child(even) {
+    font-size: 30px;
 }
 
 #name {
@@ -12,37 +40,25 @@ h4 {
     text-align: center;
 }
 
-#top {
+#top-img {
     float: left;
-    width: 330px;
+    height: 330px;
     padding: 10px;
     background-color: #0d1b2a;
 }
 
-.des-container {
-    height: 350px;
-}
-
-#commitment {
-    font-size: 30px;
-}
-
-#resilience {
-    font-size: 25px;
-}
-
-#empathy {
-    font-size: 40px;
-}
-
-#collaboration {
-    font-size: 30px;
-}
-
 .description {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 8px;
+    left: 380px;
+    right: 10px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
 }
 
-div {
-    border: 2px solid black;
+.des-container {
+    height: 350px;
+    position: relative;;
 }
